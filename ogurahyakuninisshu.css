@@ -1,0 +1,43 @@
+/* #f0efe6 #5f7e7b #c3c1af #405a5c */
+
+body{
+background-color: #f0efe6;
+}
+
+.container{
+  margin: 0;
+  background-color: #f0efe6;
+  color: #405a5c;
+  font-family: serif;
+  font-weight: bold;
+}
+
+.center_container{
+  margin: 5vh auto;
+  padding: 2em;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 2em;
+  outline: .2em solid;
+  outline-color: #405a5c;
+  box-shadow: 0 0 0 1em #fff;
+  min-height: 100vh;
+  height: auto;
+  width: 50vw;
+}
+
+.result_container{
+  display: flex;
+  justify-content: center;
+}
+
+#result{
+  margin: 0 auto;
+  text-align: left;
+}
+
+.underline{
+  margin: 1em auto;
+  border: 1px solid #405a5c;
+}
+

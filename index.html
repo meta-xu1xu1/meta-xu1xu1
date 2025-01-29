@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ogurahyakuninisshu.css">
+    <title>百人一首検索</title>
+</head>
+<body>
+  <div class="container">
+      <div class="center_container">
+          <h1>百人一首検索</h1>
+
+      <!-- 入力するところ -->
+            <label for="upper_verse">上の句を入力してください：</label>
+            <input type="text" id="upper_verse" oninput="searchVerse()" placeholder="例：あきのたの">
+            <div class="underline"></div>
+      <!-- 結果を表示するところ -->
+            <div class="result_container">
+              <div id="result"></div>
+            </div>
+      </div>
+  </div>
+    <script src="ogurahyakuninisshu.js"></script>
+</body>
+</html>
